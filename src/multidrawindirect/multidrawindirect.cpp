@@ -1,5 +1,5 @@
 /*
- * Copyright © 2012-2015 Graham Sellers
+ * Copyright Â© 2012-2015 Graham Sellers
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -182,9 +182,15 @@ void multidrawindirect_app::render(double currentTime)
     glClearBufferfv(GL_COLOR, 0, black);
     glClearBufferfv(GL_DEPTH, 0, &one);
 
-    const vmath::mat4 view_matrix = vmath::lookat(vmath::vec3(100.0f * cosf(t * 0.023f), 100.0f * cosf(t * 0.023f), 300.0f * sinf(t * 0.037f) - 600.0f),
-                                                  vmath::vec3(0.0f, 0.0f, 260.0f),
-                                                  vmath::normalize(vmath::vec3(0.1f - cosf(t * 0.1f) * 0.3f, 1.0f, 0.0f)));
+//    const vmath::mat4 view_matrix = vmath::lookat(vmath::vec3(100.0f * cosf(t * 0.023f), 100.0f * cosf(t * 0.023f), 300.0f * sinf(t * 0.037f) - 600.0f),
+//                                                  vmath::vec3(0.0f, 0.0f, 260.0f),
+//                                                  vmath::normalize(vmath::vec3(0.1f - cosf(t * 0.1f) * 0.3f, 1.0f, 0.0f)));
+
+    const vmath::mat4 view_matrix = vmath::lookat(
+                vmath::vec3(0,0,5.0),
+                vmath::vec3(0,0,0.0),
+                vmath::vec3(0,1,0.0)
+                );
     const vmath::mat4 proj_matrix = vmath::perspective(50.0f,
                                                        (float)info.windowWidth / (float)info.windowHeight,
                                                        1.0f,

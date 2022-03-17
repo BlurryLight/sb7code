@@ -1,5 +1,4 @@
 cmake_minimum_required (VERSION 2.6)
-
 project (superbible7)
 
 LINK_DIRECTORIES( ${CMAKE_SOURCE_DIR}/lib )
@@ -21,7 +20,9 @@ find_package(OpenGL)
 set (CMAKE_DEBUG_POSTFIX "_d")
 
 if(WIN32)
-set(COMMON_LIBS sb7 optimized glfw3 debug glfw3_d ${GLFW_LIBRARIES} ${OPENGL_LIBRARIES})
+#debug glfw3_d
+find_package(glfw3 CONFIG REQUIRED)
+set(COMMON_LIBS sb7 glfw  ${GLFW_LIBRARIES} ${OPENGL_LIBRARIES})
 elseif (UNIX)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(GLFW REQUIRED glfw3)
@@ -41,6 +42,7 @@ add_library(sb7
             src/sb7/sb7textoverlay.cpp
             src/sb7/gl3w.c
 )
+target_link_libraries(sb7 PUBLIC glfw)
 
 set(RUN_DIR ${PROJECT_SOURCE_DIR}/bin)
 
@@ -139,10 +141,11 @@ endif()
 foreach(EXAMPLE ${EXAMPLES})
   add_executable(${EXAMPLE} WIN32 src/${EXAMPLE}/${EXAMPLE}.cpp)
   set_property(TARGET ${EXAMPLE} PROPERTY DEBUG_POSTFIX _d)
-  target_link_libraries(${EXAMPLE} ${COMMON_LIBS})
-  if(MSVC)
-    configure_file(${PROJECT_SOURCE_DIR}/build/templates/vs2013.vcxproj.user.in ${CMAKE_CURRENT_BINARY_DIR}/${EXAMPLE}.vcxproj.user @ONLY)
-  endif(MSVC)
+  target_link_libraries(${EXAMPLE} ${COMMON_LIBS} glfw)
+  target_compile_options(${EXAMPLE} PRIVATE /utf-8)
+ # if(MSVC)
+ #   configure_file(${PROJECT_SOURCE_DIR}/build/templates/vs2013.vcxproj.user.in ${CMAKE_CURRENT_BINARY_DIR}/${EXAMPLE}.vcxproj.user @ONLY)
+ # endif(MSVC)
 endforeach(EXAMPLE)
 
 IF (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
@@ -150,7 +153,7 @@ IF (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
 ENDIF (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
 
 include_directories( include )
-include_directories(extern/glfw-3.0.4/include)
+#include_directories(extern/glfw-3.0.4/include)
 
-ADD_CUSTOM_TARGET(debug ${CMAKE_COMMAND} -DCMAKE_BUILD_TYPE:STRING=Debug ${PROJECT_SOURCE_DIR})
-ADD_CUSTOM_TARGET(release ${CMAKE_COMMAND} -DCMAKE_BUILD_TYPE:STRING=Release ${PROJECT_SOURCE_DIR})
+#ADD_CUSTOM_TARGET(debug ${CMAKE_COMMAND} -DCMAKE_BUILD_TYPE:STRING=Debug ${PROJECT_SOURCE_DIR})
+#ADD_CUSTOM_TARGET(release ${CMAKE_COMMAND} -DCMAKE_BUILD_TYPE:STRING=Release ${PROJECT_SOURCE_DIR})

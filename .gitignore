@@ -3,3 +3,4 @@ build/
 *.txt.user
 build*
 *.pdb
+.cache

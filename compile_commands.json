@@ -1,0 +1,447 @@
+[
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\sb7.dir\\src\\sb7\\sb7.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\sb7.dir\\src\\sb7\\sb7color.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7color.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7color.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\sb7.dir\\src\\sb7\\sb7ktx.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7ktx.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7ktx.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\sb7.dir\\src\\sb7\\sb7object.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7object.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7object.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\sb7.dir\\src\\sb7\\sb7shader.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7shader.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7shader.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\sb7.dir\\src\\sb7\\sb7textoverlay.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7textoverlay.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\sb7textoverlay.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 -openmp /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\sb7.dir\\src\\sb7\\gl3w.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\gl3w.c",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\sb7\\gl3w.c"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\alienrain.dir\\src\\alienrain\\alienrain.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\alienrain\\alienrain.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\alienrain\\alienrain.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\basicfbo.dir\\src\\basicfbo\\basicfbo.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\basicfbo\\basicfbo.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\basicfbo\\basicfbo.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\bindlesstex.dir\\src\\bindlesstex\\bindlesstex.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\bindlesstex\\bindlesstex.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\bindlesstex\\bindlesstex.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\blendmatrix.dir\\src\\blendmatrix\\blendmatrix.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\blendmatrix\\blendmatrix.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\blendmatrix\\blendmatrix.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\blinnphong.dir\\src\\blinnphong\\blinnphong.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\blinnphong\\blinnphong.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\blinnphong\\blinnphong.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\bumpmapping.dir\\src\\bumpmapping\\bumpmapping.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\bumpmapping\\bumpmapping.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\bumpmapping\\bumpmapping.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\clipdistance.dir\\src\\clipdistance\\clipdistance.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\clipdistance\\clipdistance.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\clipdistance\\clipdistance.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\csflocking.dir\\src\\csflocking\\csflocking.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\csflocking\\csflocking.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\csflocking\\csflocking.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\compressrgtc.dir\\src\\compressrgtc\\compressrgtc.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\compressrgtc\\compressrgtc.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\compressrgtc\\compressrgtc.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\cubemapenv.dir\\src\\cubemapenv\\cubemapenv.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\cubemapenv\\cubemapenv.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\cubemapenv\\cubemapenv.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\cubicbezier.dir\\src\\cubicbezier\\cubicbezier.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\cubicbezier\\cubicbezier.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\cubicbezier\\cubicbezier.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\cullindirect.dir\\src\\cullindirect\\cullindirect.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\cullindirect\\cullindirect.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\cullindirect\\cullindirect.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\deferredshading.dir\\src\\deferredshading\\deferredshading.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\deferredshading\\deferredshading.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\deferredshading\\deferredshading.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\depthclamp.dir\\src\\depthclamp\\depthclamp.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\depthclamp\\depthclamp.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\depthclamp\\depthclamp.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\dflandscape.dir\\src\\dflandscape\\dflandscape.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\dflandscape\\dflandscape.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\dflandscape\\dflandscape.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\dispmap.dir\\src\\dispmap\\dispmap.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\dispmap\\dispmap.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\dispmap\\dispmap.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\dof.dir\\src\\dof\\dof.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\dof\\dof.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\dof\\dof.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\envmapsphere.dir\\src\\envmapsphere\\envmapsphere.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\envmapsphere\\envmapsphere.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\envmapsphere\\envmapsphere.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\equirectangular.dir\\src\\equirectangular\\equirectangular.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\equirectangular\\equirectangular.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\equirectangular\\equirectangular.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\fontdemo.dir\\src\\fontdemo\\fontdemo.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\fontdemo\\fontdemo.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\fontdemo\\fontdemo.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\fragcolorfrompos.dir\\src\\fragcolorfrompos\\fragcolorfrompos.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\fragcolorfrompos\\fragcolorfrompos.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\fragcolorfrompos\\fragcolorfrompos.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\fragmentlist.dir\\src\\fragmentlist\\fragmentlist.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\fragmentlist\\fragmentlist.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\fragmentlist\\fragmentlist.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\grass.dir\\src\\grass\\grass.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\grass\\grass.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\grass\\grass.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\gsculling.dir\\src\\gsculling\\gsculling.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\gsculling\\gsculling.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\gsculling\\gsculling.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\gslayered.dir\\src\\gslayered\\gslayered.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\gslayered\\gslayered.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\gslayered\\gslayered.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\gsquads.dir\\src\\gsquads\\gsquads.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\gsquads\\gsquads.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\gsquads\\gsquads.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\gstessellate.dir\\src\\gstessellate\\gstessellate.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\gstessellate\\gstessellate.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\gstessellate\\gstessellate.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\hdrbloom.dir\\src\\hdrbloom\\hdrbloom.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\hdrbloom\\hdrbloom.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\hdrbloom\\hdrbloom.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\hdrexposure.dir\\src\\hdrexposure\\hdrexposure.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\hdrexposure\\hdrexposure.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\hdrexposure\\hdrexposure.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\hdrtonemap.dir\\src\\hdrtonemap\\hdrtonemap.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\hdrtonemap\\hdrtonemap.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\hdrtonemap\\hdrtonemap.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\hqfilter.dir\\src\\hqfilter\\hqfilter.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\hqfilter\\hqfilter.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\hqfilter\\hqfilter.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\indexedcube.dir\\src\\indexedcube\\indexedcube.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\indexedcube\\indexedcube.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\indexedcube\\indexedcube.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\indirectmaterial.dir\\src\\indirectmaterial\\indirectmaterial.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\indirectmaterial\\indirectmaterial.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\indirectmaterial\\indirectmaterial.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\instancedattribs.dir\\src\\instancedattribs\\instancedattribs.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\instancedattribs\\instancedattribs.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\instancedattribs\\instancedattribs.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\julia.dir\\src\\julia\\julia.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\julia\\julia.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\julia\\julia.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\ktxview.dir\\src\\ktxview\\ktxview.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\ktxview\\ktxview.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\ktxview\\ktxview.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\linesmooth.dir\\src\\linesmooth\\linesmooth.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\linesmooth\\linesmooth.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\linesmooth\\linesmooth.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\mirrorclampedge.dir\\src\\mirrorclampedge\\mirrorclampedge.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\mirrorclampedge\\mirrorclampedge.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\mirrorclampedge\\mirrorclampedge.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\movingtri.dir\\src\\movingtri\\movingtri.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\movingtri\\movingtri.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\movingtri\\movingtri.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\msaanative.dir\\src\\msaanative\\msaanative.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\msaanative\\msaanative.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\msaanative\\msaanative.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\multidrawindirect.dir\\src\\multidrawindirect\\multidrawindirect.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\multidrawindirect\\multidrawindirect.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\multidrawindirect\\multidrawindirect.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\multiscissor.dir\\src\\multiscissor\\multiscissor.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\multiscissor\\multiscissor.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\multiscissor\\multiscissor.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\multiviewport.dir\\src\\multiviewport\\multiviewport.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\multiviewport\\multiviewport.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\multiviewport\\multiviewport.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\noperspective.dir\\src\\noperspective\\noperspective.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\noperspective\\noperspective.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\noperspective\\noperspective.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\normalviewer.dir\\src\\normalviewer\\normalviewer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\normalviewer\\normalviewer.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\normalviewer\\normalviewer.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\objectexploder.dir\\src\\objectexploder\\objectexploder.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\objectexploder\\objectexploder.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\objectexploder\\objectexploder.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\ompparticles.dir\\src\\ompparticles\\ompparticles.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\ompparticles\\ompparticles.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\ompparticles\\ompparticles.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\packetbuffer.dir\\src\\packetbuffer\\packetbuffer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\packetbuffer\\packetbuffer.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\packetbuffer\\packetbuffer.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\perpixelgloss.dir\\src\\perpixelgloss\\perpixelgloss.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\perpixelgloss\\perpixelgloss.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\perpixelgloss\\perpixelgloss.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\phonglighting.dir\\src\\phonglighting\\phonglighting.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\phonglighting\\phonglighting.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\phonglighting\\phonglighting.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\polygonsmooth.dir\\src\\polygonsmooth\\polygonsmooth.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\polygonsmooth\\polygonsmooth.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\polygonsmooth\\polygonsmooth.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\prefixsum.dir\\src\\prefixsum\\prefixsum.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\prefixsum\\prefixsum.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\prefixsum\\prefixsum.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\pmbfractal.dir\\src\\pmbfractal\\pmbfractal.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\pmbfractal\\pmbfractal.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\pmbfractal\\pmbfractal.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\pmbstreaming.dir\\src\\pmbstreaming\\pmbstreaming.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\pmbstreaming\\pmbstreaming.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\pmbstreaming\\pmbstreaming.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\prefixsum2d.dir\\src\\prefixsum2d\\prefixsum2d.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\prefixsum2d\\prefixsum2d.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\prefixsum2d\\prefixsum2d.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\programinfo.dir\\src\\programinfo\\programinfo.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\programinfo\\programinfo.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\programinfo\\programinfo.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\raytracer.dir\\src\\raytracer\\raytracer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\raytracer\\raytracer.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\raytracer\\raytracer.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\rimlight.dir\\src\\rimlight\\rimlight.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\rimlight\\rimlight.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\rimlight\\rimlight.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\sampleshading.dir\\src\\sampleshading\\sampleshading.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\sampleshading\\sampleshading.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\sampleshading\\sampleshading.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\sdfdemo.dir\\src\\sdfdemo\\sdfdemo.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\sdfdemo\\sdfdemo.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\sdfdemo\\sdfdemo.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\shadowmapping.dir\\src\\shadowmapping\\shadowmapping.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\shadowmapping\\shadowmapping.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\shadowmapping\\shadowmapping.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\shapedpoints.dir\\src\\shapedpoints\\shapedpoints.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\shapedpoints\\shapedpoints.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\shapedpoints\\shapedpoints.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\simpleclear.dir\\src\\simpleclear\\simpleclear.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\simpleclear\\simpleclear.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\simpleclear\\simpleclear.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\simpletexcoords.dir\\src\\simpletexcoords\\simpletexcoords.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\simpletexcoords\\simpletexcoords.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\simpletexcoords\\simpletexcoords.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\simpletexture.dir\\src\\simpletexture\\simpletexture.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\simpletexture\\simpletexture.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\simpletexture\\simpletexture.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\singlepoint.dir\\src\\singlepoint\\singlepoint.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\singlepoint\\singlepoint.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\singlepoint\\singlepoint.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\singletri.dir\\src\\singletri\\singletri.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\singletri\\singletri.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\singletri\\singletri.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\sparsetexture.dir\\src\\sparsetexture\\sparsetexture.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\sparsetexture\\sparsetexture.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\sparsetexture\\sparsetexture.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\spinnycube.dir\\src\\spinnycube\\spinnycube.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\spinnycube\\spinnycube.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\spinnycube\\spinnycube.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\springmass.dir\\src\\springmass\\springmass.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\springmass\\springmass.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\springmass\\springmass.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\ssao.dir\\src\\ssao\\ssao.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\ssao\\ssao.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\ssao\\ssao.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\starfield.dir\\src\\starfield\\starfield.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\starfield\\starfield.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\starfield\\starfield.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\stereo.dir\\src\\stereo\\stereo.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\stereo\\stereo.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\stereo\\stereo.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\subroutines.dir\\src\\subroutines\\subroutines.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\subroutines\\subroutines.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\subroutines\\subroutines.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\tessellatedcube.dir\\src\\tessellatedcube\\tessellatedcube.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\tessellatedcube\\tessellatedcube.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\tessellatedcube\\tessellatedcube.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\tessellatedgstri.dir\\src\\tessellatedgstri\\tessellatedgstri.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\tessellatedgstri\\tessellatedgstri.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\tessellatedgstri\\tessellatedgstri.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\tessellatedtri.dir\\src\\tessellatedtri\\tessellatedtri.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\tessellatedtri\\tessellatedtri.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\tessellatedtri\\tessellatedtri.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\tessmodes.dir\\src\\tessmodes\\tessmodes.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\tessmodes\\tessmodes.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\tessmodes\\tessmodes.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\tesssubdivmodes.dir\\src\\tesssubdivmodes\\tesssubdivmodes.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\tesssubdivmodes\\tesssubdivmodes.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\tesssubdivmodes\\tesssubdivmodes.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\toonshading.dir\\src\\toonshading\\toonshading.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\toonshading\\toonshading.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\toonshading\\toonshading.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\tunnel.dir\\src\\tunnel\\tunnel.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\tunnel\\tunnel.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\tunnel\\tunnel.cpp"
+},
+{
+  "directory": "C:/coderepo/cppBase/sb7code/build/vscode-Visual Studio Professional 2019 Release - amd64-Debug",
+  "command": "C:\\PROGRA~2\\MICROS~2\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGLFW_DLL -IC:\\coderepo\\cppBase\\sb7code\\include -external:IC:\\vcpkg\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 /utf-8 /FoCMakeFiles\\wrapmodes.dir\\src\\wrapmodes\\wrapmodes.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\coderepo\\cppBase\\sb7code\\src\\wrapmodes\\wrapmodes.cpp",
+  "file": "C:\\coderepo\\cppBase\\sb7code\\src\\wrapmodes\\wrapmodes.cpp"
+}
+]

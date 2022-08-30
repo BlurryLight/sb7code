@@ -334,6 +334,10 @@ int CALLBACK WinMain(HINSTANCE hInstance,           \
                      LPSTR lpCmdLine,               \
                      int nCmdShow)                  \
 {                                                   \
+	AllocConsole();                                 \
+	freopen("CONIN$", "r", stdin);                  \
+	freopen("CONOUT$", "w", stdout);                \
+	freopen("CONOUT$", "w", stderr);                \
     a *app = new a;                                 \
     app->run(app);                                  \
     delete app;                                     \

@@ -1,7 +1,8 @@
 OpenGL SuperBible 7th Edition Examples - How to Build
 =====================================================
 BlurryLight: Windows上用vcpkg find_pakcage(glfw3)
-资源解压到bin/media目录下
+资源解压到bin/media目录下。
+把解压出来的bin/media/shaders目录删除，把源码目录下的shaders软连接过去
 =============
 
 This source code archive uses CMake to build. The samples also use GLFW library, a

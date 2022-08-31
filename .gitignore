@@ -4,3 +4,11 @@ build/
 build*
 *.pdb
 .cache
+compile_commands*.json
+*.lib
+*.dll
+*.a
+*.exe
+.idea
+.vscode
+.vs

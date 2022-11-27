@@ -23,6 +23,10 @@
 
 #include <sb7.h>
 #include <vmath.h>
+#include <assert.h>
+
+#define FBO_RESOLVE 0 
+#define SAMPLE_COUNT 4
 
 class msaanative_app : public sb7::application
 {
@@ -33,7 +37,9 @@ class msaanative_app : public sb7::application
         sb7::application::init();
 
         memcpy(info.title, title, sizeof(title));
-        info.samples = 8;
+#if !FBO_RESOLVE
+        info.samples = SAMPLE_COUNT;
+#endif
     }
 
     virtual void startup()
@@ -130,10 +136,38 @@ class msaanative_app : public sb7::application
                      GL_STATIC_DRAW);
 
         glEnable(GL_CULL_FACE);
+
+#if FBO_RESOLVE
+        glGenFramebuffers(1,&framebufferMS);
+        glBindFramebuffer(GL_FRAMEBUFFER,framebufferMS);
+        
+        GLuint rtMS;
+        glGenTextures(1,&rtMS);
+        glBindTexture(GL_TEXTURE_2D_MULTISAMPLE,rtMS);
+        glTexImage2DMultisample(GL_TEXTURE_2D_MULTISAMPLE,SAMPLE_COUNT,GL_RGB8,info.windowWidth,info.windowHeight,true);
+        glBindTexture(GL_TEXTURE_2D_MULTISAMPLE,0);
+        glFramebufferTexture2D(GL_FRAMEBUFFER,GL_COLOR_ATTACHMENT0,GL_TEXTURE_2D_MULTISAMPLE,/*tex id*/rtMS,/* mip */0);
+
+        GLuint dsRBO;
+        glGenRenderbuffers(1,&dsRBO);
+        glBindRenderbuffer(GL_RENDERBUFFER,dsRBO);
+        // 创建RBO，分配空间
+        glRenderbufferStorageMultisample(GL_RENDERBUFFER,SAMPLE_COUNT,GL_DEPTH24_STENCIL8,info.windowWidth,info.windowHeight);
+        glBindRenderbuffer(GL_RENDERBUFFER,0);
+        glFramebufferRenderbuffer(GL_FRAMEBUFFER,GL_DEPTH_STENCIL_ATTACHMENT,GL_RENDERBUFFER,dsRBO);
+
+        assert(glCheckFramebufferStatus(GL_FRAMEBUFFER) == GL_FRAMEBUFFER_COMPLETE);
+        glBindFramebuffer(GL_FRAMEBUFFER,0);
+#endif 
+
     }
 
     virtual void render(double currentTime)
     {
+
+#if FBO_RESOLVE
+        glBindFramebuffer(GL_FRAMEBUFFER, framebufferMS);
+#endif
         static const GLfloat black[] = { 0.0f, 0.0f, 0.0f, 1.0f };
         static const GLfloat one = 1.0f;
 
@@ -175,6 +209,15 @@ class msaanative_app : public sb7::application
         glUniformMatrix4fv(mv_location, 1, GL_FALSE, mv_matrix);
         glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_SHORT, 0);
 #endif
+
+#if FBO_RESOLVE
+        glBindFramebuffer(GL_DRAW_FRAMEBUFFER, 0);
+        glBindFramebuffer(GL_READ_FRAMEBUFFER, framebufferMS);
+        glBlitFramebuffer(0, 0, info.windowWidth, info.windowHeight, 0, 0,
+                          info.windowWidth, info.windowHeight,
+                          GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT, GL_NEAREST);
+        glBindFramebuffer(GL_FRAMEBUFFER, 0);
+#endif
     }
 
     virtual void shutdown()
@@ -191,6 +234,10 @@ private:
     GLuint          index_buffer;
     GLint           mv_location;
     GLint           proj_location;
+
+#if FBO_RESOLVE
+    GLuint  framebufferMS;
+#endif
 };
 
 DECLARE_MAIN(msaanative_app)

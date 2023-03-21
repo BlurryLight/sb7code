@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "args": [],
+            "stopAtEntry": false,
+            //https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/cmake-settings.md
+            "cwd": "${command:cmake.launchTargetDirectory}",
+            "environment": [],
+            "console": "externalTerminal"
+        },
+        {
+            "name": "mesa-debug",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            // "program": "D:\\coderepo\\githubBase\\sb7code\\bin\\basicfbo_d.exe",
+            "args": [
+                "-info"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [
+                {
+                    "name": "LIBGL_DEBUG",
+                    "value": "verbose"
+                },
+                {
+                    "name": "GALLIUM_DRIVER",
+                    "value": "llvmpipe"
+                },
+                {
+                    "name": "MESA_GL_VERSION_OVERRIDE",
+                    "value": "4.5"
+                },
+            ],
+            "console": "externalTerminal",
+            "symbolSearchPath": "D:\\coderepo\\githubBase\\mesa\\mesa3d-23.0.0-debug-info-msvc\\x64",
+            "sourceFileMap": {
+                "C:\\Software\\mesa": "D:\\coderepo\\githubBase\\mesa\\mesa-23.0.0"
+            }
+        }
+    ]
+}

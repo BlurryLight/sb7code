@@ -62,10 +62,10 @@ void main(void)
         shared_member[local_id] = them;
         memoryBarrierShared();
         barrier();
+        flock_center += them.position;
         for (j = 0; j < gl_WorkGroupSize.x; j++)
         {
             them = shared_member[j];
-            flock_center += them.position;
             if (i * gl_WorkGroupSize.x + j != global_id)
             {
                 accelleration += rule1(me.position,
@@ -81,7 +81,7 @@ void main(void)
         barrier();
     }
 
-    flock_center /= float(gl_NumWorkGroups.x * gl_WorkGroupSize.x);
+    flock_center /= float(gl_WorkGroupSize.x);
     new_me.position = me.position + me.velocity * timestep;
     accelleration += normalize(goal - me.position) * rule3_weight;
     accelleration += normalize(flock_center - me.position) * rule4_weight;

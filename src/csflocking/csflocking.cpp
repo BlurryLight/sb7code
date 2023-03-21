@@ -165,7 +165,7 @@ public:
 
         glUseProgram(flock_update_program);
 
-        vmath::vec3 goal = vmath::vec3(sinf(t * 0.34f),
+        vmath::vec3 goal = vmath::vec3(sinf(t * 0.34f) * 5.0f,
                                        cosf(t * 0.29f),
                                        sinf(t * 0.12f) * cosf(t * 0.5f));
 

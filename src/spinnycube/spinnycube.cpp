@@ -25,7 +25,9 @@
 #include <vmath.h>
 
 // Remove this to draw only a single cube!
-// #define MANY_CUBES
+#define MANY_CUBES
+
+static constexpr int kReverseZ = 1;
 
 class singlepoint_app : public sb7::application
 {
@@ -162,17 +164,26 @@ class singlepoint_app : public sb7::application
         glFrontFace(GL_CW);
 
         glEnable(GL_DEPTH_TEST);
-        glDepthFunc(GL_LEQUAL);
+        // reverse z
+        if(kReverseZ)
+        {
+            glDepthFunc(GL_GEQUAL);
+            glClipControl(GL_LOWER_LEFT,GL_ZERO_TO_ONE);
+        }
+        else
+        {
+            glDepthFunc(GL_LEQUAL);
+        }
     }
 
     virtual void render(double currentTime)
     {
         static const GLfloat green[] = { 0.0f, 0.25f, 0.0f, 1.0f };
-        static const GLfloat one = 1.0f;
+        static const GLfloat DepthClearValue = kReverseZ ? 0.0f : 1.0f;
 
         glViewport(0, 0, info.windowWidth, info.windowHeight);
         glClearBufferfv(GL_COLOR, 0, green);
-        glClearBufferfv(GL_DEPTH, 0, &one);
+        glClearBufferfv(GL_DEPTH, 0, &DepthClearValue);
 
         glUseProgram(program);
 
@@ -218,6 +229,15 @@ class singlepoint_app : public sb7::application
 
         aspect = (float)w / (float)h;
         proj_matrix = vmath::perspective(50.0f, aspect, 0.1f, 1000.0f);
+        if(kReverseZ)
+        {
+          // -0.5 * z + 0.5
+          proj_matrix =
+              vmath::mat4(vmath::vec4(1, 0, 0, 0), vmath::vec4(0, 1, 0, 0),
+                          vmath::vec4(0, 0, -0.5, 0),
+                          vmath::vec4(0, 0, 0.5, 1)) *
+              proj_matrix;
+        }
     }
 
 private:
